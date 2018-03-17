@@ -5,6 +5,8 @@
  */
 package djsettool;
 
+import gui.mainWindow;
+
 /**
  *
  * @author devbaka
@@ -15,8 +17,7 @@ public class DJSetTool {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        // hello
+        mainWindow window = new mainWindow();
     }
     
 }
